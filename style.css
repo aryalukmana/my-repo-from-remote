@@ -8,14 +8,19 @@ body {
     max-width: 300px;
     background-color: white;
     border: 1px solid gray;
-    border-radius: 6px;
+    border-radius: 40px;
  }
   
  #profile-image{
     width: 100%;
+    overflow: hidden;
     height: auto;
  }
   
  #profile-name{
     text-align: center;
+ }
+
+ #profile-text{
+     text-align: center;
  }
